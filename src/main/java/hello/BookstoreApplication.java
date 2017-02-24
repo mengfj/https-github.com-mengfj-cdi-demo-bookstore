@@ -11,7 +11,7 @@ public class BookstoreApplication {
 
   @RequestMapping(value = "/recommended")
   public String readingList(){
-    return "Spring in Action (Manning), Cloud Native Java (O'Reilly), Learning Spring Boot (Packt), Henry Port(J. K. Rowling)";
+    return "Spring in Action (Manning), Cloud Native Java (O'Reilly), Learning Spring Boot (Packt)";
   }
 
   public static void main(String[] args) {
